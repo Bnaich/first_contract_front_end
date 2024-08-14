@@ -10,15 +10,16 @@ function App() {
   const {
     contract_address,
     counter_value,
-    recent_sender,
-    owner_address,
+    // recent_sender,
+    // owner_address,
     contract_balance,
     sendIncrement,
     sendDeposit,
     sendWithdrawalRequest
   } = useMainContract();
 
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
+  useState(0)
 
   const { connected } = useTonConnect();
 
